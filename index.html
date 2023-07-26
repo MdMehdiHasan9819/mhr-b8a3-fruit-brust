@@ -9,6 +9,9 @@
     <!-- tailwind css -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+  <!-- font awesome -->
+  <link rel="stylesheet" href="./assets/all.min.css">
+  <link rel="stylesheet" href="./assets/fontawesome.min.css">
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,7 +41,7 @@
 <header>
   
 <!-- max-w-screen-xl mx-auto px-8 md:px-16 lg:px24 py-5 -->
-
+<!-- banner section -->
   <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px24 py-5">
     <div class="carousel w-full md:h-[550px] bg-teal-100">
       <div id="slide1" class="carousel-item relative w-full" style="background-image: url(./images/banner1.png); opacity: 1;">
@@ -142,8 +145,10 @@
       </div>
     </div>
   </section>
+
+  <!-- banner position section -->
   
-<!-- <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px24 py-5 lg:block hidden relative">
+<section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px24 py-5 lg:block hidden relative">
   <div class="flex w-[900px] h-[180px] bg-[#FFF] shadow-2xl ml-28 justify-around items-center text-center  absolute -top-32">
     <div>
       <img src="./images/fruit1.png" alt="" srcset="">
@@ -166,11 +171,12 @@
       <h3 class="text-lg font-medium text-black" >Mango</h3>
     </div>
   </div>
-</section> -->
+</section>
 
 </header>
 
 <main>
+  <!-- deal of the day section -->
 <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px24 py-5">
   <div class="header-secton flex flex-col lg:flex-row justify-between mb-16 mt-10">
     <div>
@@ -377,54 +383,71 @@
             <button type="button" class="btn btn-secondary bg-[#F85559] text-white">Shop All</button>
           </div>
 </section>
-
+<!-- team member section -->
 <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px24 py-5">
   <div class="hero min-h-screen" style="background-image: url('./images/banner1.png');">
     <div class="hero-overlay bg-opacity-60"></div>
     <div class="hero-content text-center text-neutral-content">
       <div class="">
         <h1 class="mb-5 text-5xl text-[#FFF] font-extrabold">Meet the team section</h1>
-        <p class="mb-5">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+        <p class="mb-5 text-[#FFF] text-base font-medium">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
         <div class="flex flex-col lg:flex-row justify-center mt-14">
           <div class="flex justify-center  lg:mr-12">
               <div>
                 <img src="./images/member1.png" alt="" srcset="">
-                <h1>Awlad Hossain</h1>
-                <p>Fruits Expert</p>
-                <span></span>
+                <h1 class="text-2xl text-white font-extrabold">Awlad Hossain</h1>
+                <p class="text-base text-[#fff] font-medium">Fruits Expert</p>
+                <span><i class="fa-brands fa-facebook" style="color: #e81111;"></i></span>
+                <span><i class="fa-brands fa-twitter ml-1 mr-1" style="color: #e50b0b;"></i></span>
+                <span><i class="fa-brands fa-linkedin" style="color: #ec0909;"></i></span>
             </div>
           </div>
 
           <div class="flex justify-center mt-8 lg:mt-0 lg:mr-12">
             <div>
-              <img src="./images/member2.png" alt="" srcset="">
-              <h1>Awlad Hossain</h1>
-              <p>Fruits Expert</p>
-              <span></span>
+              <img class="ml-4" src="./images/member2.png" alt="" srcset="">
+              <h1 class="text-2xl text-white font-extrabold">Safia Chowdhury</h1>
+              <p class="text-base text-[#fff] font-medium">Fruits Expert</p>
+              <span><i class="fa-brands fa-facebook" style="color: #e81111;"></i></span>
+              <span><i class="fa-brands fa-twitter ml-1 mr-1" style="color: #e50b0b;"></i></span>
+              <span><i class="fa-brands fa-linkedin" style="color: #ec0909;"></i></span>
           </div>
         </div>
             
         <div class="flex justify-center mt-8 lg:mt-0 lg:mr-12">
           <div>
             <img src="./images/member3.png" alt="" srcset="">
-            <h1>Awlad Hossain</h1>
-            <p>Fruits Expert</p>
-            <span></span>
+            <h1 class="text-2xl text-white font-extrabold">Rokib Hossain</h1>
+            <p class="text-base text-[#fff] font-medium">Fruits Expert</p>
+            <span><i class="fa-brands fa-facebook" style="color: #e81111;"></i></span>
+            <span><i class="fa-brands fa-twitter ml-1 mr-1" style="color: #e50b0b;"></i></span>
+            <span><i class="fa-brands fa-linkedin" style="color: #ec0909;"></i></span>
         </div>
       </div>
 
       <div class="flex justify-center mt-8 lg:mt-0 lg:mr-12">
           <div>
             <img src="./images/member4.png" alt="" srcset="">
-            <h1>Awlad Hossain</h1>
-            <p>Fruits Expert</p>
-            <span></span>
+            <h1 class="text-2xl text-white font-extrabold">Chaity</h1>
+            <p class="text-base text-[#fff] font-medium">Fruits Expert</p>
+            <span><i class="fa-brands fa-facebook" style="color: #e81111;"></i></span>
+            <span><i class="fa-brands fa-twitter ml-1 mr-1" style="color: #e50b0b;"></i></span>
+            <span><i class="fa-brands fa-linkedin" style="color: #ec0909;"></i></span>
         </div>
       </div>
         </div>
       </div>
     </div>
   </div>
+</section>
+
+<section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px24 py-5">
+      <div class="section-header flex justify-center items-center text-center mb-8">
+          <div>
+          <h1 class="text-[#121212] text-5xl font-extrabold" >Why Choose Us</h1>
+          <p class="text-center text-base font-medium text-black mt-5">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+        </div>
+      </div>
 </section>
 </main>
 
